@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-md-12 text-white">
                             <h1 class="display-3 mb-4">Hello, Rekan rekan</h1>
-                            <p class="lead mb-5">Selamat datang di liat kaka Barang nyaa </p>
+                            <p class="lead mb-5">Datang Lagi yaah ke toko kita..</p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                         </form:form>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid d-block ml-auto float-left w-50" src="<c:url value='/resources/362-adorable-coffee-cup-.gif'/>"> </div>
+                        
                 </div>
             </div>
         </div>
