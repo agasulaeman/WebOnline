@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Controller
-@RequestMapping("/carts")
+@RequestMapping("/cart")
 public class CartController {
 
     @Autowired
@@ -46,7 +46,7 @@ public class CartController {
             double total = totalHargaCart + product.getHarga();
           session.setAttribute("cart", cart);
           session.setAttribute("total", tot);
-          session.setAttribute("cart", totalHargaCart);
+          //session.setAttribute("cart", totalHargaCart);
         } catch (Exception er) {
             er.printStackTrace();
         }

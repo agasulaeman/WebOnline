@@ -17,6 +17,7 @@ public class Cartbean {
     private Map<Integer, Barang> carts;
 
     public Cartbean() {
+        carts = new HashMap<>();
     }
 
     

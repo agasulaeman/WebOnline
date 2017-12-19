@@ -33,7 +33,7 @@ public class Barang implements Serializable {
     @Id
     @Basic(optional = false)
     @Column(name = "ID")
-    private String id;
+    private Integer id;
     // @Max(value=?)  @Min(value=?)//if you know range of your decimal fields consider using these annotations to enforce field validation
     @Column(name = "HARGA")
     private Double harga;
@@ -47,15 +47,15 @@ public class Barang implements Serializable {
     public Barang() {
     }
 
-    public Barang(String id) {
+    public Barang(Integer id) {
         this.id = id;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
